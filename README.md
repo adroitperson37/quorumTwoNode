@@ -13,6 +13,6 @@ This is very simple example of executing a private transaction in QUORUM blockch
 2. Install go-quorum (http://docs.goquorum.com/en/latest/Getting%20Started/Installing/) tools.
 
 
-#Steps to create a quorum 2 node network from scratch
+# Steps to create a quorum 2 node network from scratch
 
-
+TODO
