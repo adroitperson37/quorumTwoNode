@@ -13,6 +13,14 @@ This is very simple example of executing a private transaction in QUORUM blockch
 2. Install go-quorum (http://docs.goquorum.com/en/latest/Getting%20Started/Installing/) tools.
 
 
+# Project Layout 
+
+1. new-node-1 , new-node-2 are public data stores which is very similar to ethereum data directory.
+2. new-node-1t, new-node-2t are private data stores which are based on tessera private transaction managers.
+3. nodekey, nodekey2 is nothing but a combination go-ethereum crypto Key which is the combination of Public and private key.[For curious people this key is genrated using go-lang standard libary https://golang.org/pkg/crypto/ecdsa/ .]
+
+
+
 # Steps to create a quorum 2 node network from scratch
 
 TODO
