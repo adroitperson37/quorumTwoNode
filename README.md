@@ -1,4 +1,9 @@
-# Quorum 2 node private transaction example
+# What is Quorum?
+
+ https://github.com/jpmorganchase/quorum 
+
+
+# Description
 
 This is very simple example of executing a private transaction in QUORUM blockchain.
 
