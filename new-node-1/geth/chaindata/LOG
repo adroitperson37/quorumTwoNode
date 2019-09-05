@@ -1,0 +1,28 @@
+=============== Sep 2, 2019 (MST) ===============
+12:06:08.700967 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:06:08.712826 db@open opening
+12:06:08.713701 version@stat F·[] S·0B[] Sc·[]
+12:06:08.724195 db@janitor F·2 G·0
+12:06:08.724216 db@open done T·11.377746ms
+=============== Sep 2, 2019 (MST) ===============
+12:08:34.923263 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:08:34.923334 version@stat F·[] S·0B[] Sc·[]
+12:08:34.923341 db@open opening
+12:08:34.923366 journal@recovery F·1
+12:08:34.925322 journal@recovery recovering @1
+12:08:34.932248 memdb@flush created L0@2 N·14 S·995B "\x18֎..|(\xd9,v3":"\xfc\xa7\xbd..\xbd\xcc,,v4"
+12:08:34.934194 version@stat F·[1] S·995B[995B] Sc·[0.25]
+12:08:34.947841 db@janitor F·3 G·0
+12:08:34.947868 db@open done T·24.520525ms
+13:36:06.091196 db@close closing
+13:36:06.091317 db@close done T·115.705µs
+=============== Sep 2, 2019 (MST) ===============
+13:43:20.216234 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:43:20.216353 version@stat F·[1] S·995B[995B] Sc·[0.25]
+13:43:20.216364 db@open opening
+13:43:20.216411 journal@recovery F·1
+13:43:20.219068 journal@recovery recovering @3
+13:43:20.223397 memdb@flush created L0@5 N·3 S·266B "Dat..ion,v17":"quo..ive,v16"
+13:43:20.225448 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+13:43:20.238487 db@janitor F·4 G·0
+13:43:20.238509 db@open done T·22.137713ms
