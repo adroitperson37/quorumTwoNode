@@ -18,7 +18,9 @@ This is very simple example of executing a private transaction in QUORUM blockch
 1. new-node-1 , new-node-2 are public data stores which is very similar to ethereum data directory.
 2. new-node-1t, new-node-2t are private data stores which are based on tessera private transaction managers.
 3. nodekey, nodekey2 is nothing but a combination go-ethereum crypto Key which is the combination of Public and private key.[For curious people this key is genrated using go-lang standard libary https://golang.org/pkg/crypto/ecdsa/ .]
-
+4. startnode1.sh and startnode2.sh are handy shell scripts which is used to bring the network up.
+5. private-contract.js is a web3 js backed JS file which is used to create a transaction in node1.
+6. Well every knows what genesis.json is.
 
 
 # Steps to create a quorum 2 node network from scratch
